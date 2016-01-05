@@ -1,0 +1,15 @@
+notebook:
+  image: julienroussel/mimo-2016:v1.0
+  ports:
+    - "8888:8888"
+  volumes:
+    - .:/home/jovyan/work
+  links:
+    - database
+database:
+  image: mysql:5.7
+  environment:
+    - MYSQL_ROOT_PASSWORD=mimo2016
+    - MYSQL_DATABASE=mimo
+    - MYSQL_USER=mimo
+    - MYSQL_PASSWORD=mimopasswd
