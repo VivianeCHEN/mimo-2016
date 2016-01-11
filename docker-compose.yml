@@ -1,5 +1,5 @@
 notebook:
-  image: julienroussel/mimo-2016:v1.0
+  image: julienroussel/mimo-2016:v1.1
   ports:
     - "8888:8888"
   volumes:
