@@ -3,7 +3,7 @@ notebook:
   ports:
     - "8888:8888"
   volumes:
-    - .:/home/jovyan/work
+    - cours:/home/jovyan/work
   links:
     - database
 database:
