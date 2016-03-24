@@ -1,0 +1,4 @@
+Bonjour
+Le python c'est chouette !
+
+Au revoir
